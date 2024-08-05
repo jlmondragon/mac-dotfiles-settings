@@ -30,3 +30,6 @@ source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 
 export PATH="$HOME/.jenv/bin:$PATH"
   eval "$(jenv init -)"
+
+# ssh key
+ssh-add -K ~/.ssh/id_rsa_bnext
